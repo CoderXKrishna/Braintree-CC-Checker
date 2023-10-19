@@ -1,7 +1,5 @@
-# Braintree-CC-Checker
-
 <h1 align="center">
-  <b>”*°•.˜”*°• Krishna UserBot •°*”˜.•°*”˜</b>
+  <b>”*°•.˜”*°• ᴋ૨Ꭵနꤪꤨꫝꪀα𓆩ꭙ_̽𝗧𝝰‌֟፝𝝶𝞄᳟ا‌ 𝕮𝖍𝖊𝖈𝖐𝖊𝖗 •°*”˜.•°*”˜</b>
 </h1>
 
 <p align="center">
