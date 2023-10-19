@@ -7,3 +7,4 @@ telebot
 colorama
 Flask
 bs4
+pyTelegramBotAPI
