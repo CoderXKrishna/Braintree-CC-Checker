@@ -1,4 +1,4 @@
-class Config;
+class Config:
       API_ID = "1458059"
       API_HASH = "f1c4e91f5e9f4d8637c8233091499068"
       BOT_TOKEN = "6507187712:AAFf9RE-7yGOOEVBLp8Z7R796YmI3YUj_9g"
