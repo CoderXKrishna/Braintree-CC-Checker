@@ -45,6 +45,10 @@
     "BOT_TOKEN": {
       "description": "Make a bot from @BotFather and paste the bot token here.",
       "value": ""
+    },
+     "ALLOWED_IDS": {
+      "description": "Make a bot from @BotFather and paste the bot token here.",
+      "value": ""
     }
   },
   "addons": [{
