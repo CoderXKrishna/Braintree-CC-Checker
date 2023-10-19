@@ -5,3 +5,4 @@ telethon==1.26.1
 rich==13.3.1
 telebot
 colorama
+Flask
