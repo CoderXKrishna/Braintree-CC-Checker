@@ -1,10 +1,8 @@
 import requests, re
 from hh import keep_alive
-try:
-  import telebot
-except:
-  import os
-  os.system("pip install pyTelegramBotAPI")
+import telebot
+import os
+os.system("pip install pyTelegramBotAPI")
 from telebot import *
 from GATEAU import Tele
 from colorama import Fore
