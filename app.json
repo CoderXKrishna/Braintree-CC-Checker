@@ -1,0 +1,73 @@
+{
+  "name": "KrishnaUserbot",
+  "description": "One of the best Userbot & Updated Version Of Krishna Userbot Making By Krishna  for Telegram. Now Its Known For Carding Hacking And Many More Deploy And Enjoy.",
+  "logo": "https://graph.org/file/008c68e47cd3dc6cc3018.jpg",
+  "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "telethon",
+    "hellbot",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/CoderXKrishna/KrishXUserbot/",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
+      "value": "ANYTHING"
+    },
+    "ABUSE": {
+      "description": "Leave it blank if you dont want Profanity in KrishBot. Else Fill ON.",
+      "value": "ON",
+      "required": false
+    },
+    "HANDLER": {
+      "description": "Your command handler. Default is ' . ' (dot).",
+      "value": "."
+    },
+    "APP_ID": {
+      "description": "Yeh Box Ko fill karne ke liye iss url pe jaao my.telegram.org",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Yeh Box Ko fill karne ke liye iss url pe jaao my.telegram.org",
+      "value": ""
+    },
+    "KRISHBOT_SESSION": {
+      "description": "Isko Bharne Ke Liye Tg Se Bot Se Banao Ya  repl or termux se . Refer to Repo for more info.",
+      "value": ""
+    },
+    "HEROKU_API_KEY": {
+      "description": "Go to https://dashboard.heroku.com/account, scroll down and press Reveal API. Required for updater to work.",
+      "value": ""
+    },
+    "HEROKU_APP_NAME": {
+      "description": "The Value of App Name you filled in right on top. Required for updater to work.",
+      "value": ""
+    },
+    "BOT_TOKEN": {
+      "description": "Make a bot from @BotFather and paste the bot token here.",
+      "value": ""
+    }
+  },
+  "addons": [{
+    "plan": "heroku-postgresql",
+    "options": {
+      "version": "12"
+    }
+  }],
+  "buildpacks": [{
+    "url": "https://github.com/CoderXKrishna/heroku-buildpack-ffmpeg-latest"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-google-chrome"
+  },{
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+  },{
+    "url": "https://github.com/heroku/heroku-buildpack-apt.git"
+  },{
+    "url": "https://github.com/chrismytton/heroku-buildpack-jq"
+  },{
+    "url": "heroku/python"
+  }]
+}
