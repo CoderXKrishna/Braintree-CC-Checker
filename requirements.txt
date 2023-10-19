@@ -3,3 +3,7 @@ pyromod==1.5
 TgCrypto
 telethon==1.26.1
 rich==13.3.1
+import requests, re
+telebot
+GATEAU
+colorama
