@@ -1,1 +1,47 @@
+{
+    "name": "Braintree-CC-Checker",
+    "description": "This CC Checker bot to check charged cc",
+    "keywords": [
+        "Telethon",
+        "flask",
+        "heroku"
+    ],
+
+    "repository": "https://github.com/CoderXKrishna/Braintree-CC-Checker/",
+    "success_url": "https://telegram.dog/Itsz_Krish_Bio",
+
+    "env": {
+
+        "API_ID": {
+
+            "description": "Your APP ID From my.telegram.org ",
+            "value":"your api-id",
+            "required": true
+        },
+        "API_HASH": {
+
+            "description": "Your API Hash From my.telegram.org ",
+            "value":"your api-hash",
+            "required": true
+        },
+        "BOT_TOKEN": {
+
+            "description": "Your Bot Token From @BotFather",
+            "value":"your bot-token",
+            "required": true
+        },
+        "ALLOWED_id": {
+
+            "description": "Allow ids to use this Bot",
+            "value":"your users-id seprated by ,",
+            "required": true
+        }
+    },
+
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ]
+}
 
