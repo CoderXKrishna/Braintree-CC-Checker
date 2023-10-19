@@ -1,1 +1,1 @@
-worker: python3 -m Braintree-CC-Checker
+worker: python3 -m main.py
