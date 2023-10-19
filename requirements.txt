@@ -6,3 +6,4 @@ rich==13.3.1
 telebot
 colorama
 Flask
+bs4
