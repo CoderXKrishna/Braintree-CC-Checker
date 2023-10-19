@@ -6,11 +6,12 @@ os.system("pip install pyTelegramBotAPI")
 from telebot import *
 from GATEAU import Tele
 from colorama import Fore
+from config import Config
 
 allowed_ids = [5226412616, 6310106757, 5561431531, 1842145160, 1844022813, 6028397529, 631995357, 5461390855, 5742164992, 6610700592, 1110832396, 6348162824, 6540380323, 5829666584, 5965383805, 651143150, 5393600547, 5471035205]
 sto = {"stop": True}
-api_hash = os.system("API_HASH")
-token = os.system("BOT_TOKEN")
+api_hash = Config.API_HASH
+token = Config.BOT_TOKEN
 bot = telebot.TeleBot(token, parse_mode="HTML")
 
 @bot.message_handler(commands=["stop"])
