@@ -5,7 +5,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://graph.org/file/c85e7e9ee3b6d23006cb6.jpg" alt="Krishna-CC-Checker">
+  <img src="https://graph.org/file/b39e6c924037d1772e95f.jpg" alt="Krishna-CC-Checker">
 </p>
 
 <h6 align="center">
