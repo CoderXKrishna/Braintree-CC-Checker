@@ -8,7 +8,7 @@ from GATEAU import Tele
 from colorama import Fore
 from config import Config
 
-allowed_ids = Config.allowed_ids
+allowed_ids = Config.ALLOWED_IDS
 sto = {"stop": True}
 api_hash = Config.API_HASH
 token = Config.BOT_TOKEN
