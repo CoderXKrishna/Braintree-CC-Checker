@@ -45,7 +45,7 @@ def main(message):
     w.write(ee)
   print(message.chat.id)
   sto.update({"stop": True})
-  if message.chat.id in allowed_ids:
+  if message.chat.id in ALLOWED_IDS:
     with open("combo.txt") as file:
       lino = file.readlines()
       lino = [line.rstrip() for line in lino]
