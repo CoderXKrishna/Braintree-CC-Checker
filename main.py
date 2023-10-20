@@ -8,7 +8,7 @@ from GATEAU import Tele
 from colorama import Fore
 from config import Config
 
-allowed_ids = Config.ALLOWED_IDS
+allowed_ids = [5561431531, 1000143895, 1807176943, 1805821281, 6540380323, 6532734848, 6369716434, 5046706975, 6502778158, 1286394337,1785450012, 1733339220, 1623933357, 5226412616, 6310106757, 5561431531, 1842145160, 1844022813, 6028397529, 631995357, 5461390855, 5742164992, 6610700592, 1110832396, 6348162824, 6540380323, 5829666584, 5965383805, 651143150, 5393600547, 5471035205]
 sto = {"stop": True}
 api_hash = Config.API_HASH
 token = Config.BOT_TOKEN
@@ -45,7 +45,7 @@ def main(message):
     w.write(ee)
   print(message.chat.id)
   sto.update({"stop": True})
-  if message.chat.id in ALLOWED_IDS:
+  if message.chat.id in allowed_ids:
     with open("combo.txt") as file:
       lino = file.readlines()
       lino = [line.rstrip() for line in lino]
