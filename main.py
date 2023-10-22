@@ -13,6 +13,7 @@ sto = {"stop": True}
 api_hash = Config.API_HASH
 token = Config.BOT_TOKEN
 bot = telebot.TeleBot(token, parse_mode="HTML")
+last = None
 
 @bot.message_handler(commands=["stop"])
 def start(message):
@@ -108,7 +109,8 @@ def main(message):
     ''',
             parse_mode='markdown',
             reply_markup=mes)
-
+        
+        global last
         try:
           last = str(Tele(cc))
         except Exception as e:
